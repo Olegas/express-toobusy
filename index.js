@@ -1,4 +1,4 @@
-var toobusy = require('toobusy');
+var toobusy = require('toobusy-js');
 
 module.exports = function(maxLag) {
 
