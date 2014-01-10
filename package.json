@@ -1,0 +1,25 @@
+{
+  "name": "express-toobusy",
+  "version": "0.0.1",
+  "description": "Express middleware to return 503 if server is too busy right now",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Olegas/express-toobusy.git"
+  },
+  "keywords": [
+    "express",
+    "toobusy"
+  ],
+  "author": "Oleg Elifantiev <oleg@elifantiev.ru>",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/Olegas/express-toobusy/issues"
+  },
+  "dependencies": {
+    "toobusy-js": "~0.3.0"
+  }
+}
