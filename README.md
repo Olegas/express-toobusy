@@ -10,7 +10,7 @@ Usage
 
 ```javascript
 
-    app.use(require('express-toobusy'));
+    app.use(require('express-toobusy')());
 
 ```
 
