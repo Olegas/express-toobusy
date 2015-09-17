@@ -8,7 +8,7 @@ module.exports = function(maxLag) {
 
    return function expressToobusy(req, res, next) {
       if (toobusy()) {
-         res.send(503, "Server is too busy. Please, try again later.");
+         res.status(503).send("Server is too busy. Please, try again later.");
       } else {
          next();
       }
